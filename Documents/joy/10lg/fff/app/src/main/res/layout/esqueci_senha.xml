@@ -1,0 +1,56 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:background="@color/colorAzul"
+        android:contentDescription="@string/app_name"
+        android:scaleType="center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorAzul"
+        android:text="Recuperação de Senha"
+        android:textAlignment="center"
+        android:fontFamily="@font/montserrat"
+        android:layout_gravity="center"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorCinza"
+        android:layout_marginTop="15dp"
+        android:text="Enviaremos a senha para o seu email."
+        android:fontFamily="@font/montserrat"
+        android:textSize="14dp" />
+
+    <EditText
+        android:id="@+id/usuEsqueci"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="13"
+        android:fontFamily="@font/montserrat"
+        android:hint="Digite seu nome de usuário"
+        android:inputType="textPersonName"
+        android:textColor="@color/colorCinza" />
+
+    <EditText
+        android:id="@+id/emailEsqueci"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="13"
+        android:fontFamily="@font/montserrat"
+        android:layout_marginBottom="5dp"
+        android:hint="Digite seu email"
+        android:inputType="textPersonName"
+        android:textColor="@color/colorCinza" />
+
+
+</LinearLayout>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fundorprimc"
+    tools:context=".MenuActivity">
+
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="136dp"
+        android:layout_marginBottom="403dp"
+        android:fontFamily="@font/montserrat"
+        android:text="Bem-vindo ao 10 Life Goals!"
+        android:textColor="#212529"
+        android:textSize="24sp"
+        app:fontFamily="@font/montserrat" />
+
+    <TextView
+        android:id="@+id/textview12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="103dp"
+        android:layout_marginBottom="444dp"
+        android:fontFamily="@font/montserrat"
+        android:text="Incentive e seja incentivado!"
+        android:textColor="#212529"
+        android:textSize="16sp"
+        app:fontFamily="@font/montserrat" />
+
+    <TextView
+        android:id="@+id/textview11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="176dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="351dp"
+        android:fontFamily="@font/montserrat"
+        android:gravity="center_horizontal"
+        android:text="Um app de metas de vida que vai mudar a sua vida!"
+        android:textColor="#212529"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="225dp"
+        android:layout_height="42dp"
+        android:layout_alignEnd="@+id/btnTelaEntrar"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="-6dp"
+        android:layout_marginBottom="30dp"
+        android:fontFamily="@font/montserrat"
+        android:gravity="center_horizontal"
+        android:text="Clique no botão ao lado para conhecer mais sobre nós!"
+        android:textColor="#212529"
+        app:fontFamily="@font/montserrat" />
+
+    <Button
+        android:id="@+id/btnTelaEntrar"
+        android:layout_width="113dp"
+        android:layout_height="38dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="158dp"
+        android:background="@color/colorPrimary"
+        android:text="Entrar"
+        android:fontFamily="@font/montserrat"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textColor="@android:color/background_light" />
+
+    <Button
+        android:id="@+id/btnTelaCriar"
+        android:layout_width="115dp"
+        android:layout_height="36dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="117dp"
+        android:background="@color/colorPrimary"
+        android:text="Criar Conta"
+        android:fontFamily="@font/montserrat"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textColor="@color/colorWhite" />
+
+
+    <Button
+        android:id="@+id/btnMais"
+        android:layout_width="wrap_content"
+        android:layout_height="33dp"
+        android:layout_alignTop="@+id/textView13"
+        android:layout_alignEnd="@+id/textView10"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="11dp"
+        android:background="@color/colorPrimary"
+        android:fontFamily="@font/montserrat"
+        android:text="Mais"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textColor="@android:color/background_light" />
+</RelativeLayout>

@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            tools:layout_editor_absoluteX="37dp"
+            tools:layout_editor_absoluteY="0dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/textView"
+                        android:layout_width="242dp"
+                        android:layout_height="25dp"
+                        android:layout_below="@+id/TextView"
+                        android:layout_alignStart="@+id/TextView"
+                        android:layout_alignLeft="@+id/TextView"
+                        android:fontFamily="@font/montserrat"
+                        android:text="Requerimentos para uso do serviço"
+                        android:textColor="@android:color/background_dark"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.044"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.176" />
+
+                    <TextView
+                        android:id="@+id/TextView"
+                        android:layout_width="359dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginBottom="8dp"
+                        android:gravity="center"
+                        android:ems="10"
+                        android:fontFamily="@font/montserrat"
+                        android:inputType="textMultiLine"
+                        android:text="Termos de Uso"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Menu"
+                        android:textColor="@color/colorAzul"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.111"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.018" />
+
+
+                    <TextView
+                        android:id="@+id/textView5"
+                        android:layout_width="367dp"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/textView"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginTop="12dp"
+                        android:layout_marginLeft="2dp"
+                        android:fontFamily="@font/montserrat"
+                        android:text=" Nosso serviço é oferecido para pessoas capazes de firmar um acordo conosco. O Usuário deve conhecer e seguir as regras deste site, bem como estar de acordo com a jurisdição a que pertence e as leis do seu país.             "
+                        tools:layout_editor_absoluteX="26dp"
+                        tools:layout_editor_absoluteY="116dp" />
+
+                    <TextView
+                        android:id="@+id/textView6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="18dp"
+                        android:layout_below="@+id/textView5"
+                        android:layout_alignStart="@+id/textView"
+                        android:layout_alignLeft="@+id/textView"
+                        android:layout_marginTop="19dp"
+                        android:fontFamily="@font/montserrat"
+                        android:text="Conteúdo nos Serviços"
+                        android:textColor="@android:color/background_dark"
+                        tools:layout_editor_absoluteX="16dp"
+                        tools:layout_editor_absoluteY="203dp" />
+
+                    <TextView
+                        android:id="@+id/textView8"
+                        android:layout_width="353dp"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/textView6"
+                        android:layout_alignStart="@+id/textView5"
+                        android:layout_alignLeft="@+id/textView5"
+                        android:layout_marginTop="12dp"
+                        android:layout_marginLeft="2dp"
+                        android:fontFamily="@font/montserrat"
+                        android:text="Você é responsável por seu uso dos serviços e por qualquer conteúdo fornecido, incluindo a conformidade com leis, regras e regulamentos aplicáveis. Você só deve fornecer conteúdo com o qual esteja confortável em compartilhar com outras pessoas. Qualquer uso ou confiança em qualquer conteúdo ou materiais publicados pelos Serviços ou obtidos por você pelos Serviços é de sua inteira responsabilidade. Não aprovamos, apoiamos, declaramos nem garantimos a integridade, veracidade, exatidão ou confiabilidade de qualquer Conteúdo ou comunicado publicado pelos Serviços, tampouco endossamos opiniões expressas por eles. Você compreende que, ao utilizar os Serviços, pode estar exposto a Conteúdo ofensivo, prejudicial, impreciso, inadequado ou, em alguns casos, a publicações identificadas de modo indevido ou fraudulentas. Todo o conteúdo é de responsabilidade exclusiva da pessoa que o criar. Não podemos monitorar ou controlar o Conteúdo postado pelos serviços, e não podemos nos responsabilizar por tal conteúdo."
+                        tools:layout_editor_absoluteX="23dp"
+                        tools:layout_editor_absoluteY="221dp" />
+
+                    <TextView
+                        android:id="@+id/textView9"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/textView8"
+                        android:layout_alignStart="@+id/textView6"
+                        android:layout_alignLeft="@+id/textView6"
+                        android:fontFamily="@font/montserrat"
+                        android:text="Utilização dos Serviços"
+                        android:textColor="@android:color/background_dark" />
+
+                    <TextView
+                        android:id="@+id/textView10"
+                        android:layout_width="353dp"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/textView9"
+                        android:layout_alignStart="@+id/textView8"
+                        android:layout_alignLeft="@+id/textView8"
+                        android:layout_marginTop="11dp"
+                        android:layout_marginLeft="2dp"
+                        android:fontFamily="@font/montserrat"
+                        android:text="Revise as regras do 10 Life Goals, que fazem parte do acordo do usuário e descrevem o que é proibido nos Serviços. Você pode utilizar os serviços somente em conformidade com estes termos e todas as leis, regras e regulamentos aplicáveis. Nossos serviços evoluem constantemente. Sendo assim, os serviços podem ser alterados de tempos em tempos, a nosso exclusivo critério. Podemos interromper (permanente ou temporariamente) o fornecimento dos serviços ou quaisquer recursos nos serviços para você ou usuários em geral. Também podemos manter o direito de criar limites de uso e armazenamento, a nosso exclusivo critério e a qualquer momento. Nós também podemos remover ou recusar a distribuição de qualquer conteúdo nos serviços, suspender ou encerrar contas de usuários e recuperar nomes de usuários sem responsabilidade perante você. Em consideração ao 10 Life Goals por conceder a você acesso e uso dos serviços, você concorda que o 10 Life Goals e seus provedores de terceiros e parceiros podem colocar anúncios nos Serviços ou em conexão com a exibição do conteúdo ou de informações dos serviços, enviados por você ou por outras pessoas. Você também concorda em não fazer uso indevido de nossos serviços, por exemplo, interferindo ou acessando-os por meio de um método que não seja a interface e as instruções fornecidas pelo 10 Life Goals. Você não pode realizar nenhuma das seguintes ações ao acessar ou utilizar os Serviços: (I) acessar, adulterar ou utilizar áreas não públicas dos serviços, os sistemas de computadores do 10 Life Goals ou os sistemas de entrega técnica dos fornecedores do 10 Life Goals; (II) sondar, examinar ou testar as vulnerabilidades de qualquer sistema ou rede, ou violar ou neutralizar qualquer medida de segurança ou autenticação; (III) acessar ou pesquisar, ou tentar acessar ou pesquisar os serviços por quaisquer meios (automatizados ou de qualquer outra maneira) de outra forma que não por meio das interfaces publicadas e atualizadas disponibilizadas pelo 10 Life Goals (e sujeito aos respectivos termos e condições), exceto quando você tenha sido especificamente autorizado a realizar esses atos por meio de um acordo separado com o 10 Life Goals (OBS.: o crawling ou recurso a indexadores automáticos nos Serviços é admissível desde que efetuado de acordo com os termos e condições constantes do arquivo robots.txt; não obstante, é expressamente proibido o scraping dos Serviços sem o consentimento prévio do 10 Life Goals); (IV) forjar o cabeçalho de qualquer pacote TCP/IP ou qualquer parte da informação constante do cabeçalho de qualquer e-mail ou publicação, assim como utilizar os serviços de qualquer forma para enviar informação identificadora de origem alterada, enganosa ou falsa; ou (V) interferir ou prejudicar, (ou tentar assim o fazer), o acesso de qualquer usuário, prestador de serviços de hosting (armazenagem principal ou em servidor) ou de rede, incluindo, sem limitação, por meio de atos como o envio de vírus, overloading (sobrecarga), flooding, envio de spam (comunicações não solicitadas) e-mail-bombing direcionados aos Serviços, ou por meio do uso de scripts para a criação de Conteúdo de maneira que interfira com os Serviços ou crie uma carga excessiva neles. Também nos reservamos o direito de acessar, ler, preservar e divulgar quaisquer informações que acreditarmos ser razoavelmente necessárias para (I) satisfazer solicitação governamental de qualquer lei, regulamento ou processo jurídico aplicável, (II) cumprir os Termos, incluindo a investigação de possíveis violações deste Acordo, (III) detectar, prevenir ou, de outra forma lidar com fraude, segurança ou problemas técnicos, (IV) responder solicitações de suporte do usuário, ou (V) proteger os direitos, propriedade ou segurança do 10 Life Goals, de seus usuários e do público. O 10 Life Goals não divulga informações pessoais a terceiros, exceto de acordo com nossa Política de Privacidade."
+                        tools:layout_editor_absoluteX="23dp"
+                        tools:layout_editor_absoluteY="221dp" />
+
+                    <TextView
+                        android:id="@+id/textView11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="18dp"
+                        android:layout_below="@+id/textView10"
+                        android:layout_alignStart="@+id/textView9"
+                        android:layout_alignLeft="@+id/textView9"
+                        android:layout_marginTop="17dp"
+                        android:fontFamily="@font/montserrat"
+                        android:text="Quem pode utilizar"
+                        android:textColor="@android:color/background_dark" />
+
+                    <TextView
+                        android:id="@+id/textView12"
+                        android:layout_width="340dp"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/textView11"
+                        android:layout_alignStart="@+id/textView10"
+                        android:layout_alignLeft="@+id/textView10"
+                        android:layout_marginTop="18dp"
+                        android:layout_marginLeft="2dp"
+                        android:fontFamily="@font/montserrat"
+                        android:text="Você pode utilizar os Serviços somente se concordar em celebrar um contrato vinculante com o 10 Life Goals e não for uma pessoa impedida de receber serviços sob as leis da jurisdição aplicável. Se estiver aceitando estes termos e utilizando os serviços em nome de uma empresa, organização, governo ou outra entidade legal, você declara e garante que está autorizado a realizar tal ação."
+                        tools:layout_editor_absoluteX="0dp"
+                        tools:layout_editor_absoluteY="234dp" />
+
+                    <TextView
+                        android:id="@+id/textView13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="18dp"
+                        android:layout_below="@+id/textView12"
+                        android:layout_alignStart="@+id/textView11"
+                        android:layout_alignLeft="@+id/textView11"
+                        android:layout_marginTop="21dp"
+                        android:fontFamily="@font/montserrat"
+                        android:text="Seus Direitos"
+                        android:textColor="@android:color/background_dark"
+                        tools:layout_editor_absoluteX="16dp"
+                        tools:layout_editor_absoluteY="203dp" />
+
+                    <TextView
+                        android:id="@+id/textView14"
+                        android:layout_width="340dp"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/textView13"
+                        android:layout_alignStart="@+id/textView12"
+                        android:layout_alignLeft="@+id/textView12"
+                        android:layout_marginTop="14dp"
+                        android:layout_marginLeft="2dp"
+                        android:fontFamily="@font/montserrat"
+                        android:text="Você manterá seus direitos sobre qualquer conteúdo que enviar, publicar ou exibir nos serviços ou por meio deles. O que for seu será seu; você é o proprietário do seu conteúdo. Ao enviar, publicar ou exibir conteúdo nos serviços ou por meio deles, você nos outorga uma licença mundial gratuita, não exclusiva (com direito a sublicenciar) para utilizar, copiar, reproduzir, processar, adaptar, modificar, publicar, transmitir, exibir e distribuir esse conteúdo em qualquer e todos os tipos de mídia ou métodos de distribuição (já disponíveis ou que venham a ser desenvolvidos). Esta licença nos autoriza a tornar seu conteúdo disponível para o restante do mundo e permite que outros usuários façam o mesmo. Você concorda que esta licença outorga ao 10 Life Goals o direito de fornecer, promover e melhorar os Serviços, além de tornar o conteúdo enviado para ou por meio dos Serviços disponível a outras empresas, organizações ou pessoas que são parceiras do 10 Life Goals para fins de distribuição, transmissão, divulgação ou publicação dele em outros tipos de mídia e serviços, sujeitando-se aos nossos termos e condições de utilização de conteúdo. Tais usos adicionais por parte do 10 Life Goals ou de outras empresas, organizações ou indivíduos parceiros do 10 Life Goals podem ocorrer sem que lhe seja devida qualquer remuneração pelo conteúdo que você enviar, publicar, transmitir ou, de outra maneira, disponibilizar por meio dos serviços. O 10 Life Goals tem um conjunto de regras em constante evolução relacionadas à forma como os parceiros do ecossistema podem interagir com o seu conteúdo nos Serviços do 10 Life Goals. Tais regras existem para possibilitar a existência de um ecossistema aberto, levando em consideração os seus direitos. Você entende que podemos modificar ou adaptar seu conteúdo, uma vez que ele tenha sido distribuído, publicado ou transmitido pelo 10 Life Goals ou nossos parceiros e/ou fazer alterações em seu conteúdo para adaptá-lo a diferentes tipos de mídia. Você declara e garante que possui todos os direitos, poderes e autorizações necessários para outorgar os direitos aqui citados sobre qualquer conteúdo enviado por você."
+                        tools:layout_editor_absoluteX="0dp"
+                        tools:layout_editor_absoluteY="234dp" />
+
+                    <TextView
+                        android:id="@+id/textView15"
+                        android:layout_width="wrap_content"
+                        android:layout_height="18dp"
+                        android:layout_below="@+id/textView14"
+                        android:layout_alignStart="@+id/textView13"
+                        android:layout_alignLeft="@+id/textView13"
+                        android:layout_marginTop="17dp"
+                        android:fontFamily="@font/montserrat"
+                        android:text="Sua conta"
+                        android:textColor="@android:color/background_dark"
+                        tools:layout_editor_absoluteX="16dp"
+                        tools:layout_editor_absoluteY="203dp" />
+
+                    <TextView
+                        android:id="@+id/textView16"
+                        android:layout_width="340dp"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/textView15"
+                        android:layout_alignStart="@+id/textView14"
+                        android:layout_alignLeft="@+id/textView14"
+                        android:layout_marginTop="13dp"
+                        android:layout_marginLeft="2dp"
+                        android:fontFamily="@font/montserrat"
+                        android:text="Você pode precisar criar uma conta para utilizar alguns de nossos serviços. Você é responsável por proteger sua conta, portanto, use uma senha forte e limite seu uso para esta conta. Nós não podemos ser e não seremos responsáveis por qualquer perda ou dano resultante do seu não cumprimento com o descrito acima. Você pode controlar a maioria das comunicações a partir dos serviços. Talvez o 10 Life Goals precise enviar a você certas comunicações, como anúncios de serviços e mensagens administrativas. Essas comunicações são consideradas parte dos Serviços e da sua conta, e você não conseguirá cancelar o recebimento delas."
+                        tools:layout_editor_absoluteX="0dp"
+                        tools:layout_editor_absoluteY="234dp" />
+
+
+                    <TextView
+                        android:id="@+id/textView17"
+                        android:layout_width="wrap_content"
+                        android:layout_height="18dp"
+                        android:layout_below="@+id/textView16"
+                        android:layout_alignStart="@+id/textView15"
+                        android:layout_alignLeft="@+id/textView15"
+                        android:layout_marginTop="13dp"
+                        android:fontFamily="@font/montserrat"
+                        android:text="Sua licença para utilizar os Serviços"
+                        android:textColor="@android:color/background_dark"
+                        tools:layout_editor_absoluteX="16dp"
+                        tools:layout_editor_absoluteY="203dp" />
+
+                    <TextView
+                        android:id="@+id/textView18"
+                        android:layout_width="340dp"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/textView17"
+                        android:layout_alignStart="@+id/textView16"
+                        android:layout_alignLeft="@+id/textView16"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginLeft="2dp"
+                        android:fontFamily="@font/montserrat"
+                        android:text="O 10 Life Goals oferece a você uma licença pessoal, mundial, gratuita, não atribuível e não exclusiva, para utilizar o software fornecido a você como parte dos Serviços. Essa licença possui a finalidade exclusiva de permitir que você utilize e aproveite o benefício dos Serviços, conforme descrito pelo 10 Life Goals, na maneira permitida por estes Termos. Nada nos Termos outorga a você o direito de utilizar o nome do 10 Life Goals ou quaisquer marcas registradas, logotipos, nomes de domínio e outras características distintivas de sua marca. Todos os direitos, títulos e interesses sobre e relacionados aos Serviços (exceto aqueles relacionados ao Conteúdo fornecido pelos usuários) são e continuarão sendo propriedade exclusiva do 10 Life Goals e de seus licenciadores. Quaisquer feedback, comentários ou sugestões fornecidos com relação ao 10 Life Goals ou os Serviços são totalmente voluntários e poderão ser utilizados como feedback, comentários ou sugestões de acordo com nossa conveniência e sem que haja qualquer obrigação perante você."
+                        tools:layout_editor_absoluteX="0dp"
+                        tools:layout_editor_absoluteY="234dp" />
+
+                    <TextView
+                        android:id="@+id/textView19"
+                        android:layout_width="wrap_content"
+                        android:layout_height="18dp"
+                        android:layout_below="@+id/textView18"
+                        android:layout_alignStart="@+id/textView17"
+                        android:layout_alignLeft="@+id/textView17"
+                        android:layout_marginTop="13dp"
+                        android:fontFamily="@font/montserrat"
+                        android:text="Termos de Serviço"
+                        android:textColor="@android:color/background_dark"
+                        tools:layout_editor_absoluteX="16dp"
+                        tools:layout_editor_absoluteY="203dp" />
+
+                    <TextView
+                        android:id="@+id/textView20"
+                        android:layout_width="340dp"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/textView19"
+                        android:layout_alignStart="@+id/textView18"
+                        android:layout_alignLeft="@+id/textView18"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginLeft="2dp"
+                        android:fontFamily="@font/montserrat"
+                        android:text="Os termos de serviço podem ser atualizados a qualquer momento e sem qualquer aviso prévio. Fique atento."
+                        tools:layout_editor_absoluteX="0dp"
+                        android:layout_marginBottom="10dp"
+                        tools:layout_editor_absoluteY="234dp" />
+
+
+                </RelativeLayout>
+            </LinearLayout>
+        </ScrollView>
+
+
+    </android.support.constraint.ConstraintLayout>

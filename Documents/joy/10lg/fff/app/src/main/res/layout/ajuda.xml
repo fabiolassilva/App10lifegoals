@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="60dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textview1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="@font/montserrat"
+                android:gravity="center"
+                android:text="Ajuda"
+                android:textColor="@color/colorAzul"
+                android:textSize="24sp" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="187dp"
+                    android:layout_height="25dp"
+                    android:layout_alignLeft="@+id/TextView"
+                    android:layout_alignStart="@+id/TextView"
+                    android:layout_below="@+id/TextView"
+                    android:fontFamily="@font/montserrat"
+                    android:text="O que é o 10 Life Goals?"
+                    android:textColor="@android:color/background_dark"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.044"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.176" />
+
+                <TextView
+                    android:id="@+id/TextView"
+                    android:layout_width="359dp"
+                    android:layout_height="64dp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:ems="10"
+                    android:fontFamily="@font/montserrat"
+                    android:inputType="textMultiLine"
+                    android:text="Está com alguma dificuldade ou tem alguma dúvida sobre o 10 Life Goals e seu funcionamento? Consulte nossa seção de dúvidas frequentes:"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Menu"
+                    android:textSize="14sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.111"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.018" />
+
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="367dp"
+                    android:layout_height="78dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@+id/textView"
+                    android:layout_marginTop="12dp"
+                    android:fontFamily="@font/montserrat"
+                    android:text=" 10 Life Goals, ou 10 Metas de Vida, em português, é um aplicativo para ajudar as pessoas a cumprirem metas através da dinâmica entre os usuários. O app veio para incentivar pessoas a darem o melhor de si.             "
+                    tools:layout_editor_absoluteX="26dp"
+                    tools:layout_editor_absoluteY="116dp" />
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="18dp"
+                    android:layout_alignLeft="@+id/textView"
+                    android:layout_alignStart="@+id/textView"
+                    android:layout_below="@+id/textView5"
+                    android:layout_marginTop="19dp"
+                    android:fontFamily="@font/montserrat"
+                    android:text=" Como faço para começar a utilizá-lo?"
+                    android:textColor="@android:color/background_dark"
+                    tools:layout_editor_absoluteX="16dp"
+                    tools:layout_editor_absoluteY="203dp" />
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="353dp"
+                    android:layout_height="84dp"
+                    android:layout_alignLeft="@+id/textView5"
+                    android:layout_alignStart="@+id/textView5"
+                    android:layout_below="@+id/textView6"
+                    android:layout_marginTop="12dp"
+                    android:fontFamily="@font/montserrat"
+                    android:text="Basta realizar um cadastro no aplicativo. Você só precisa fazê-lo uma vez e nele você criará um nome de usuário e uma senha para poder fazer login quando quiser."
+                    tools:layout_editor_absoluteX="23dp"
+                    tools:layout_editor_absoluteY="221dp" />
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/textView6"
+                    android:layout_alignStart="@+id/textView6"
+                    android:layout_below="@+id/textView8"
+                    android:fontFamily="@font/montserrat"
+                    android:text="Como adiciono uma meta?"
+                    android:textColor="@android:color/background_dark" />
+
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="353dp"
+                    android:layout_height="90dp"
+                    android:layout_alignLeft="@+id/textView8"
+                    android:layout_alignStart="@+id/textView8"
+                    android:layout_below="@+id/textView9"
+                    android:layout_marginTop="11dp"
+                    android:fontFamily="@font/montserrat"
+                    android:text="Clique em 'Metas' no menu superior e você será direcionado ao espaço reservado às suas metas, em seguida clique em 'Adicionar Meta'. Lembre-se de que você só poderá adicionar novas metas quando cumprir todas as dez pendentes."
+                    tools:layout_editor_absoluteX="23dp"
+                    tools:layout_editor_absoluteY="221dp" />
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="18dp"
+                    android:layout_alignLeft="@+id/textView9"
+                    android:layout_alignStart="@+id/textView9"
+                    android:layout_below="@+id/textView10"
+                    android:layout_marginTop="17dp"
+                    android:fontFamily="@font/montserrat"
+                    android:text="Qualquer pessoa vai poder ver minhas metas?"
+                    android:textColor="@android:color/background_dark" />
+
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="340dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/textView10"
+                    android:layout_alignStart="@+id/textView10"
+                    android:layout_below="@+id/textView11"
+                    android:layout_marginTop="18dp"
+                    android:fontFamily="@font/montserrat"
+                    android:text="Não. Você pode controlar a privacidade de suas metas, quando ao criar uma meta, escolher se ela será pública ou privada. Caso escolha a opção ela será exibida para todos os seus amigos, caso contrário, apenas você poderá vê-la."
+                    tools:layout_editor_absoluteX="0dp"
+                    tools:layout_editor_absoluteY="234dp" />
+
+                <TextView
+                    android:id="@+id/textView13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="18dp"
+                    android:layout_alignLeft="@+id/textView11"
+                    android:layout_alignStart="@+id/textView11"
+                    android:layout_below="@+id/textView12"
+                    android:layout_marginTop="21dp"
+                    android:fontFamily="@font/montserrat"
+                    android:text="Como faço para adicionar outras pessoas?"
+                    android:textColor="@android:color/background_dark"
+                    tools:layout_editor_absoluteX="16dp"
+                    tools:layout_editor_absoluteY="203dp" />
+
+                <TextView
+                    android:id="@+id/textView14"
+                    android:layout_width="340dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/textView12"
+                    android:layout_alignStart="@+id/textView12"
+                    android:layout_below="@+id/textView13"
+                    android:layout_marginTop="14dp"
+                    android:fontFamily="@font/montserrat"
+                    android:text="Na tela de início, digite no campo de busca o nome de usuário de quem você procura e aperte 'Enter', em seguida, clique sobre o nome do usuário que corresponder à sua busca e depois em 'Solicitar amizade', e então será enviado para este usuário o seu convite de amizade."
+                    tools:layout_editor_absoluteX="0dp"
+                    tools:layout_editor_absoluteY="234dp" />
+
+                <TextView
+                    android:id="@+id/textView15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="18dp"
+                    android:layout_alignLeft="@+id/textView13"
+                    android:layout_alignStart="@+id/textView13"
+                    android:layout_below="@+id/textView14"
+                    android:layout_marginTop="17dp"
+                    android:fontFamily="@font/montserrat"
+                    android:text="Posso aderir as metas de outros usuários?"
+                    android:textColor="@android:color/background_dark"
+                    tools:layout_editor_absoluteX="16dp"
+                    tools:layout_editor_absoluteY="203dp" />
+
+                <TextView
+                    android:id="@+id/textView16"
+                    android:layout_width="340dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/textView14"
+                    android:layout_alignStart="@+id/textView14"
+                    android:layout_below="@+id/textView15"
+                    android:layout_marginTop="13dp"
+                    android:fontFamily="@font/montserrat"
+                    android:text="Sim, é só clicar em 'salvar meta' na meta desejada que ela ficará salva no seu perfil. Porém, você só poderá cumprí-la quando concluir as dez metas que estiverem pendentes no momento."
+                    tools:layout_editor_absoluteX="0dp"
+                    tools:layout_editor_absoluteY="234dp" />
+
+
+                <TextView
+                    android:id="@+id/textView17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="18dp"
+                    android:layout_alignLeft="@+id/textView15"
+                    android:layout_alignStart="@+id/textView15"
+                    android:layout_below="@+id/textView16"
+                    android:layout_marginTop="13dp"
+                    android:fontFamily="@font/montserrat"
+                    android:text=" Como mudo minha foto de perfil?"
+                    android:textColor="@android:color/background_dark"
+                    tools:layout_editor_absoluteX="16dp"
+                    tools:layout_editor_absoluteY="203dp" />
+
+                <TextView
+                    android:id="@+id/textView18"
+                    android:layout_width="340dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/textView16"
+                    android:layout_alignStart="@+id/textView16"
+                    android:layout_below="@+id/textView17"
+                    android:layout_marginTop="15dp"
+                    android:fontFamily="@font/montserrat"
+                    android:text=" Basta clicar em 'Perfil' no menu superior que você será redirecionado ao seu perfil, e lá clicar em 'Alterar Foto do Perfil' no menu à esquerda."
+                    tools:layout_editor_absoluteX="0dp"
+                    tools:layout_editor_absoluteY="234dp" />
+
+                <TextView
+                    android:id="@+id/editText2"
+                    android:layout_width="400dp"
+                    android:layout_height="20dp"
+                    android:layout_alignLeft="@+id/textView17"
+                    android:layout_alignStart="@+id/textView17"
+                    android:layout_below="@+id/textView18"
+                    android:layout_marginTop="26dp"
+                    android:ems="10"
+                    android:fontFamily="@font/montserrat"
+                    android:inputType="textMultiLine"
+                    android:text="Envie-nos uma mensagem:"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Menu"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.114"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.627" />
+
+
+                <EditText
+                    android:id="@+id/edAjuda"
+                    android:layout_width="339dp"
+                    android:layout_height="90dp"
+                    android:layout_below="@+id/editText2"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="15dp"
+                    android:ems="100"
+                    android:fontFamily="@font/montserrat"
+                    android:inputType="textPersonName"
+                    android:textAppearance="@style/TextAppearance.AppCompat"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="1.0" />
+
+                <Button
+                    android:id="@+id/btnAjuda"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/edAjuda"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="14dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@color/colorPrimary"
+                    android:fontFamily="@font/montserrat"
+                    android:text="Enviar"
+                    android:textAppearance="@style/TextAppearance.AppCompat"
+                    android:textColor="@color/colorWhite"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.54"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="1.0" />
+
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+</android.support.constraint.ConstraintLayout>

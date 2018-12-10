@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ScrollView
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtEditarPerfil"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="130dp"
+                android:layout_marginTop="15dp"
+                android:text="Editar Perfil"
+                android:textColor="@color/colorAzul"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:fontFamily="@font/montserrat" />
+
+            <TextView
+                android:id="@+id/txtSobre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="20dp"
+                android:text="Sobre mim"
+                android:textColor="@color/colorBlack"
+                android:textSize="16sp"
+                app:fontFamily="@font/montserrat" />
+
+            <TextView
+                android:id="@+id/txtNome"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="10dp"
+                android:text="Nome:"
+                android:textSize="14sp"
+                app:fontFamily="@font/montserrat" />
+
+            <EditText
+                android:id="@+id/edtNome"
+                android:layout_width="282dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:textSize="14sp" />
+
+
+            <TextView
+                android:id="@+id/txtAniv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="10dp"
+                android:text="Aniversário:"
+                android:textSize="14sp"
+                app:fontFamily="@font/montserrat" />
+
+            <EditText
+                android:id="@+id/edtAniv"
+                android:layout_width="284dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:ems="10"
+                android:inputType="date" />
+
+            <TextView
+                android:id="@+id/txtBio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="10dp"
+                android:text="Biografia:"
+                android:textSize="14sp"
+                app:fontFamily="@font/montserrat" />
+
+            <EditText
+                android:id="@+id/edtBio"
+                android:layout_width="284dp"
+                android:layout_height="81dp"
+                android:layout_marginLeft="60dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/txtFoto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="10dp"
+                android:text="Foto:"
+                android:textSize="14sp"
+                app:fontFamily="@font/montserrat" />
+
+            <ImageView
+                android:id="@+id/foto"
+                android:layout_width="156dp"
+                android:layout_height="136dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="90dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/colorPrimaryDark"
+                android:src="@drawable/adicionarfoto" />
+
+            <TextView
+                android:id="@+id/txtEmail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="10dp"
+                android:text="E-mail:"
+                app:fontFamily="@font/montserrat" />
+
+            <EditText
+                android:id="@+id/edtEmail"
+                android:layout_width="285dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/btnSalvarSobremim"
+                android:layout_width="wrap_content"
+                android:layout_height="37dp"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/colorAzul"
+                android:text="Salvar"
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:textColor="@android:color/white"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/txtAlterar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="20dp"
+                android:text="Alterar Senha"
+                android:textColor="@color/colorBlack"
+                android:textSize="16sp"
+                app:fontFamily="@font/montserrat" />
+
+            <TextView
+                android:id="@+id/txtSenhaAtual"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="10dp"
+                android:text="Senha Atual:"
+                android:textSize="14sp"
+                app:fontFamily="@font/montserrat" />
+
+            <EditText
+                android:id="@+id/edtSenhaAtual"
+                android:layout_width="285dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:enabled="false"
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="10dp"
+                android:text="Nova senha:"
+                android:textSize="14sp"
+                app:fontFamily="@font/montserrat" />
+
+            <EditText
+                android:id="@+id/edtNovaSenha"
+                android:layout_width="284dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/btnSalvarSenha"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_marginLeft="60dp"
+                android:background="@color/colorAzul"
+                android:text="Salvar"
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:textColor="@android:color/white"
+                android:textSize="14sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

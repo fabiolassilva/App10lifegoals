@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fundo">
+
+    <LinearLayout
+        android:id="@+id/criarLayout"
+        android:layout_width="354dp"
+        android:layout_height="422dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:gravity="center_vertical|fill_vertical"
+        android:orientation="vertical"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.715">
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@color/colorGrey"
+            android:fontFamily="@font/montserrat"
+            android:text="Entre com o seu nome completo" />
+
+        <EditText
+            android:id="@+id/edNome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorGrey"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@color/colorGrey"
+            android:fontFamily="@font/montserrat"
+            android:text="Entre com o seu email" />
+
+        <EditText
+            android:id="@+id/edEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorGrey"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@color/colorGrey"
+            android:fontFamily="@font/montserrat"
+            android:text="Entre com um nome de usuário" />
+
+        <EditText
+            android:id="@+id/edUsuario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorGrey"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@color/colorGrey"
+            android:fontFamily="@font/montserrat"
+            android:text="Entre com uma senha" />
+
+        <EditText
+            android:id="@+id/edSenha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorGrey"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:password="true" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@color/colorGrey"
+            android:fontFamily="@font/montserrat"
+            android:text="Confirme sua senha" />
+
+        <EditText
+            android:id="@+id/edConfirme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorGrey"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:password="true" />
+
+        <CheckBox
+            android:id="@+id/chTermos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat"
+            android:text="Concordo com os Termos de Uso."
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textColor="@color/colorAzul" />
+
+        <Button
+            android:id="@+id/btnTermos"
+            android:layout_width="match_parent"
+            android:layout_height="24dp"
+            android:background="@android:color/transparent"
+            android:fontFamily="@font/montserrat"
+            android:text="Termos de Uso"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textColor="@color/colorRed"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/btnCriar"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="100dp"
+            android:background="@color/colorPrimary"
+            android:fontFamily="@font/montserrat"
+            android:text="Criar"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textColor="@color/colorWhite" />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:text="Criar Conta"
+        android:textSize="20dp"
+        android:fontFamily="@font/montserrat"
+        app:layout_constraintBottom_toTopOf="@+id/criarLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>
